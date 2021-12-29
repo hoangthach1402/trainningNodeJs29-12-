@@ -7,5 +7,10 @@ router.get('/products', async (req, res) => {
   // res.send(products)
   res.send('all products')
 })
+router.get('/product', async (req, res) => {
+  // const products = await Product.find()
+  // res.send(products)
+  res.send('single products')
+})
 
 module.exports = router
